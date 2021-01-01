@@ -199,7 +199,7 @@ def function12():
     # HINT: use stacking concept
     
     arr = np.array([1,2,3])
-    ans = np.concatenate((np.repeat(arr,3), np.tile(arr,3)))  #write your code here 
+    ans = np.hstack((np.repeat(arr,3), np.tile(arr,3)))  #write your code here 
   
     return ans
 
